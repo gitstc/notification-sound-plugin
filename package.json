@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Notification Sound Plugin",
   "platforms": [
-    "android",
     "ios"
   ],
   "repository": {
