@@ -1,0 +1,20 @@
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+           id="com.stc.NotificationSoundPlugin"
+      version="0.0.1">
+
+    <name>Notification Sound Plugin</name>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="NotificationSoundPlugin">
+                <param name="ios-package" value="NotificationSoundPlugin"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/NotificationSoundPlugin.h" />
+        <source-file src="src/ios/NotificationSoundPlugin.m" />
+        <resource-file src="src/ios/iphonesms.wav" />
+        <framework src="AudioToolbox/AudioToolbox.h" />  
+    </platform>
+</plugin>

@@ -1,0 +1,15 @@
+{
+  "name": "notification-sound-plugin",
+  "version": "0.0.1",
+  "description": "Notification Sound Plugin",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "repository": {
+  },
+  "keywords": [
+    "cordova"
+  ],
+  "author": "STC"
+}
